@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="views.RegisterPage">
+  <grid id="27dc6" binding="registerPanel" layout-manager="GridLayoutManager" row-count="9" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="15" bottom="10" right="35"/>
+    <constraints>
+      <xy x="20" y="17" width="695" height="547"/>
+    </constraints>
+    <properties>
+      <background color="-3818937"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="77e05" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="36" style="1"/>
+          <foreground color="-5169664"/>
+          <text value="Register Page"/>
+        </properties>
+      </component>
+      <component id="60bf4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="69" height="17"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Dubai" size="22" style="1"/>
+          <labelFor value=""/>
+          <text value="username"/>
+        </properties>
+      </component>
+      <component id="bfb8" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="69" height="17"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Dubai" size="22" style="1"/>
+          <labelFor value="9a2b0"/>
+          <text value="email"/>
+        </properties>
+      </component>
+      <component id="489fc" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="69" height="17"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Dubai" size="22" style="1"/>
+          <labelFor value="9a2b0"/>
+          <text value="re-password"/>
+        </properties>
+      </component>
+      <component id="de310" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="69" height="17"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Dubai" size="22" style="1"/>
+          <labelFor value="9a2b0"/>
+          <text value="password"/>
+        </properties>
+      </component>
+      <component id="8121d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="69" height="17"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Dubai" size="22" style="1"/>
+          <labelFor value="9a2b0"/>
+          <text value="address"/>
+        </properties>
+      </component>
+      <component id="1b9d7" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="69" height="17"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Dubai" size="22" style="1"/>
+          <labelFor value="9a2b0"/>
+          <text value="phone"/>
+        </properties>
+      </component>
+      <component id="f223d" class="javax.swing.JTextField" binding="emailTF">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Dubai" size="14" style="0"/>
+          <horizontalAlignment value="10"/>
+          <text value=""/>
+          <toolTipText value=""/>
+        </properties>
+      </component>
+      <component id="a4160" class="javax.swing.JTextField" binding="usernameTF">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Dubai" size="14" style="0"/>
+          <horizontalAlignment value="10"/>
+          <text value=""/>
+          <toolTipText value=""/>
+        </properties>
+      </component>
+      <component id="87819" class="javax.swing.JTextField" binding="phoneTF">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Dubai" size="14" style="0"/>
+          <horizontalAlignment value="10"/>
+          <text value=""/>
+          <toolTipText value=""/>
+        </properties>
+      </component>
+      <component id="49fcd" class="javax.swing.JTextField" binding="addressTF">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Dubai" size="14" style="0"/>
+          <horizontalAlignment value="10"/>
+          <text value=""/>
+          <toolTipText value=""/>
+        </properties>
+      </component>
+      <component id="1749c" class="javax.swing.JButton" binding="btnRegister">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5169664"/>
+          <font name="Segoe UI Black" size="16" style="1"/>
+          <foreground color="-1"/>
+          <text value="register"/>
+        </properties>
+      </component>
+      <component id="228e2" class="javax.swing.JButton" binding="btnCancel">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5169664"/>
+          <font name="Segoe UI Black" size="16" style="1"/>
+          <foreground color="-1"/>
+          <text value="cancel"/>
+        </properties>
+      </component>
+      <component id="53600" class="javax.swing.JPasswordField" binding="passwordTF">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Dubai" size="14" style="0"/>
+        </properties>
+      </component>
+      <component id="9cda9" class="javax.swing.JPasswordField" binding="rePasswordTF">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Dubai" size="14" style="0"/>
+        </properties>
+      </component>
+      <component id="4d30b" class="javax.swing.JRadioButton" binding="btnMale">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3818937"/>
+          <font name="Dubai" size="16" style="1"/>
+          <selected value="false"/>
+          <text value="Male"/>
+        </properties>
+      </component>
+      <component id="cea8d" class="javax.swing.JRadioButton" binding="btnFemale">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3818937"/>
+          <font name="Dubai" size="16" style="1"/>
+          <hideActionText value="false"/>
+          <selected value="false"/>
+          <text value="Female"/>
+        </properties>
+      </component>
+      <component id="682bc" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="69" height="17"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Dubai" size="22" style="1"/>
+          <labelFor value=""/>
+          <text value="gender"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

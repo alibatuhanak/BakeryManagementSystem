@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="views.BakeryPageAdmin">
+  <grid id="27dc6" binding="adminPanel" layout-manager="GridLayoutManager" row-count="1" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="942" height="552"/>
+    </constraints>
+    <properties>
+      <background color="-3818937"/>
+      <enabled value="true"/>
+      <font name="Eras Demi ITC" size="24" style="1"/>
+    </properties>
+    <border type="none">
+      <font/>
+      <title-color color="-5169664"/>
+      <color color="-3818937"/>
+    </border>
+    <children>
+      <grid id="286c2" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5169664"/>
+        </properties>
+        <border type="none" title="Admin Dashboard" title-justification="2">
+          <font name="Bahnschrift" size="20" style="1"/>
+          <title-color color="-1"/>
+        </border>
+        <children>
+          <vspacer id="bdb4d">
+            <constraints>
+              <grid row="1" column="1" row-span="3" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <hspacer id="e6e61">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="fa0a" class="javax.swing.JList" binding="list1" default-binding="true">
+            <constraints>
+              <grid row="1" column="0" row-span="2" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-5169664"/>
+              <font name="Dubai" size="24" style="1"/>
+              <foreground color="-1"/>
+              <model>
+                <item value="Home"/>
+                <item value="Manage Admins"/>
+                <item value="Manage Users"/>
+                <item value="Manage Employees"/>
+                <item value="Manage Bakery Products"/>
+                <item value="Manage Order Statistics"/>
+              </model>
+              <selectionBackground color="-3818937"/>
+              <selectionForeground color="-5169664"/>
+              <selectionMode value="1"/>
+            </properties>
+          </component>
+          <component id="f60f3" class="javax.swing.JLabel" binding="adminL">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Gabriola" size="26" style="1"/>
+              <foreground color="-1"/>
+              <text value="&lt;HTML&gt;&lt;u&gt;Welcome the Admin alibatuhanak&lt;/u&gt;&lt;/HTML&gt;"/>
+              <verticalAlignment value="0"/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="f539d" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3818937"/>
+        </properties>
+        <border type="line" title="Admin Page" title-justification="2">
+          <font name="Bahnschrift" size="20" style="1"/>
+          <title-color color="-1"/>
+          <color color="-1"/>
+        </border>
+        <children>
+          <component id="86927" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-7108299"/>
+              <font name="Century Gothic" size="24"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <icon value="images/safran.png"/>
+              <text value=""/>
+              <verticalAlignment value="1"/>
+              <verticalTextPosition value="1"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <vspacer id="93d7f">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>

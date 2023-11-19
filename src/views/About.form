@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="views.About">
+  <grid id="27dc6" binding="panel" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="20" left="30" bottom="20" right="30"/>
+    <constraints>
+      <xy x="20" y="20" width="973" height="741"/>
+    </constraints>
+    <properties>
+      <background color="-65543"/>
+      <font name="Bahnschrift" size="14" style="1"/>
+    </properties>
+    <border type="line" title="About">
+      <font name="Bahnschrift" size="48" style="3"/>
+      <title-color color="-16777216"/>
+      <color color="-16777216"/>
+    </border>
+    <children>
+      <vspacer id="cdbc8">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="813a8" class="javax.swing.JLabel" binding="aboutLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bahnschrift" size="18" style="3"/>
+          <foreground color="-16777216"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="11"/>
+          <text value="&lt;html&gt;Safran Fırın, a bakery established in 1970, has been serving delicious baked goods for over five decades.&lt;br/&gt; With a rich history and a commitment to quality, Safran Fırın has become a beloved institution in its community.&lt;br/&gt; The bakery is known for its warm and inviting atmosphere, where customers can enjoy a wide variety of&lt;br/&gt; freshly baked bread, pastries, and other treats. The use of traditional recipes and the finest ingredients&lt;br/&gt; ensures that every product from Safran Fırın is a delightful experience for the taste buds.&lt;br/&gt;Over the years, the bakery has built a strong reputation for its dedication to craftsmanship and customer&lt;br/&gt; satisfaction, making it a cherished destination for those seeking a taste of tradition and excellence&lt;/html&gt;"/>
+        </properties>
+      </component>
+      <component id="1b3c6" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bahnschrift" size="22" style="1"/>
+          <foreground color="-16777216"/>
+          <horizontalAlignment value="10"/>
+          <horizontalTextPosition value="11"/>
+          <text value="&lt;html&gt;Address: Zafer, Ahmet Yesevi Cd. No:159, 34194 Bahçelievler/İstanbul&lt;/br&gt; &#10;Hours: &#10;24/7&lt;/html&gt;&#10;"/>
+        </properties>
+      </component>
+      <component id="faa6e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="images/safran.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

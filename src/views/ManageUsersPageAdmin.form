@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="views.ManageUsersPageAdmin">
+  <grid id="27dc6" binding="usersPanel" layout-manager="GridLayoutManager" row-count="2" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="567" height="617"/>
+    </constraints>
+    <properties>
+      <background color="-3818937"/>
+    </properties>
+    <border type="line" title="Manage Users" title-justification="2">
+      <font name="Bahnschrift" size="20" style="1"/>
+      <title-color color="-1"/>
+      <color color="-1"/>
+    </border>
+    <children>
+      <grid id="85014" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3818937"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <scrollpane id="b6bc3" binding="scrollPane">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-7567863"/>
+              <font name="Bahnschrift" size="20" style="1"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="425b" class="javax.swing.JTable" binding="usersTable">
+                <constraints/>
+                <properties>
+                  <autoCreateRowSorter value="false"/>
+                  <background color="-5169664"/>
+                  <font name="Dubai" size="14" style="0"/>
+                  <foreground color="-1"/>
+                  <gridColor color="-7108299"/>
+                  <intercellSpacing width="5" height="5"/>
+                  <selectionBackground color="-7108299"/>
+                  <selectionForeground color="-5169664"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+      <grid id="a542" layout-manager="GridLayoutManager" row-count="12" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="6" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3818937"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="8a712" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Bahnschrift" size="18" style="1"/>
+              <foreground color="-5169664"/>
+              <labelFor value="2c59e"/>
+              <text value="email"/>
+            </properties>
+          </component>
+          <component id="2c59e" class="javax.swing.JTextField" binding="emailTF">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Dubai" size="16" style="0"/>
+            </properties>
+          </component>
+          <component id="af8cf" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Bahnschrift" size="18" style="1"/>
+              <foreground color="-5169664"/>
+              <labelFor value="f79f"/>
+              <text value="username"/>
+            </properties>
+          </component>
+          <component id="f79f" class="javax.swing.JTextField" binding="usernameTF">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Dubai" size="16" style="0"/>
+            </properties>
+          </component>
+          <component id="a90a8" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Bahnschrift" size="18" style="1"/>
+              <foreground color="-5169664"/>
+              <labelFor value="43c0d"/>
+              <text value="password"/>
+            </properties>
+          </component>
+          <component id="55003" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Bahnschrift" size="18" style="1"/>
+              <foreground color="-5169664"/>
+              <labelFor value="57144"/>
+              <text value="gender"/>
+            </properties>
+          </component>
+          <component id="57144" class="javax.swing.JTextField" binding="genderTF">
+            <constraints>
+              <grid row="4" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Dubai" size="16" style="0"/>
+            </properties>
+          </component>
+          <component id="76836" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Bahnschrift" size="18" style="1"/>
+              <foreground color="-5169664"/>
+              <labelFor value="ee78c"/>
+              <text value="phone"/>
+            </properties>
+          </component>
+          <component id="ee78c" class="javax.swing.JTextField" binding="phoneTF">
+            <constraints>
+              <grid row="5" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Dubai" size="16" style="0"/>
+            </properties>
+          </component>
+          <component id="be0d6" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Bahnschrift" size="18" style="1"/>
+              <foreground color="-5169664"/>
+              <labelFor value="11f38"/>
+              <text value="address"/>
+            </properties>
+          </component>
+          <component id="11f38" class="javax.swing.JTextField" binding="addressTF">
+            <constraints>
+              <grid row="6" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Dubai" size="16" style="0"/>
+            </properties>
+          </component>
+          <component id="de983" class="javax.swing.JButton" binding="btnDelete">
+            <constraints>
+              <grid row="9" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-5169664"/>
+              <font name="Segoe UI Black" size="12" style="1"/>
+              <foreground color="-1"/>
+              <text value="Delete"/>
+            </properties>
+          </component>
+          <component id="5b1aa" class="javax.swing.JButton" binding="btnUpdate">
+            <constraints>
+              <grid row="10" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-5169664"/>
+              <font name="Segoe UI Black" size="12" style="1"/>
+              <foreground color="-1"/>
+              <text value="Update"/>
+            </properties>
+          </component>
+          <component id="4c769" class="javax.swing.JButton" binding="btnReset">
+            <constraints>
+              <grid row="11" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-5169664"/>
+              <font name="Segoe UI Black" size="12" style="1"/>
+              <foreground color="-1"/>
+              <text value="Reset"/>
+            </properties>
+          </component>
+          <component id="ed9b" class="javax.swing.JButton" binding="btnAdd">
+            <constraints>
+              <grid row="8" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-5169664"/>
+              <font name="Segoe UI Black" size="12" style="1"/>
+              <foreground color="-1"/>
+              <text value="Add"/>
+            </properties>
+          </component>
+          <component id="43c0d" class="javax.swing.JPasswordField" binding="passwordTF">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Dubai" size="16" style="0"/>
+            </properties>
+          </component>
+          <component id="61d81" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Bahnschrift" size="18" style="1"/>
+              <foreground color="-5169664"/>
+              <labelFor value="2c59e"/>
+              <text value="id"/>
+            </properties>
+          </component>
+          <component id="404d8" class="javax.swing.JTextField" binding="idTF">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <editable value="false"/>
+              <enabled value="false"/>
+              <font name="Dubai" size="16" style="0"/>
+            </properties>
+          </component>
+          <component id="5bd01" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Bahnschrift" size="18" style="1"/>
+              <foreground color="-5169664"/>
+              <labelFor value="33bd7"/>
+              <text value="balance"/>
+            </properties>
+          </component>
+          <component id="33bd7" class="javax.swing.JTextField" binding="balanceTF">
+            <constraints>
+              <grid row="7" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Dubai" size="16" style="0"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="e247f" class="javax.swing.JButton" binding="btnSearch">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5169664"/>
+          <font name="Segoe UI Black" size="12" style="1"/>
+          <foreground color="-1"/>
+          <text value="Search"/>
+        </properties>
+      </component>
+      <component id="849e1" class="javax.swing.JTextField" binding="searchTF">
+        <constraints>
+          <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Dubai" size="16" style="0"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
