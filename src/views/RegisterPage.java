@@ -95,6 +95,7 @@ public class RegisterPage extends JFrame {
             JOptionPane.showMessageDialog(RegisterPage.this, "Invalid phone.", "Try Again", JOptionPane.ERROR_MESSAGE);
             return;
         }
+
         try {
             mStatement = mConnection.createStatement();
             String sql = "SELECT * FROM users WHERE user_email=?";
